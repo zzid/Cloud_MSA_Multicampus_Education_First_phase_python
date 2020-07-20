@@ -8,13 +8,13 @@
 ------
 <pre>
 Python open source list (should look up these in advance, before the class)
-1. Requests (Http client) [ Doc : https://requests.readthedocs.io/en/master/ ]
-2. Beautifulsoup (Easier parsing! Easier than RE) [ Doc : https://www.crummy.com/software/BeautifulSoup/ ]
-3. Pandas (Table data processing, data analysis) [ Doc : https://pandas.pydata.org/ ]
-4. Matplotlib (Visualizer, visualization) [ Doc : https://matplotlib.org/ ]
-5. Seaborn (Easier than matplotlib, and more beautiful) [ Doc : https://seaborn.pydata.org/ ]
-6. Pymysql (Mysql DB connector) [ Doc : https://pymysql.readthedocs.io/en/latest/ ]
-7. Sqlalchemy (ORM: Object >> RDB) [ Doc : ]
+1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Doc</a>
+2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/'>Doc</a>
+3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Doc</a>
+4. Matplotlib (Visualizer, visualization) [ <a href='https://matplotlib.org/'>Doc</a>
+5. Seaborn (Easier than matplotlib, and more beautiful) [ <a href=' https://seaborn.pydata.org/'>Doc</a>
+6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Doc</a>
+7. Sqlalchemy (ORM: Object >> RDB) [ <a href=''>Doc</a> : ]
     (
         Tabular data : DataFrame object
         ORM Rule :: 
@@ -22,8 +22,8 @@ Python open source list (should look up these in advance, before the class)
         Object      <=>     Row(Record)
         Variable    <=>     Column
     )
-8. Pymongo (Mongodb driver) [ Doc : https://pymongo.readthedocs.io/en/stable/ ]
-9. Jupyter notebook (>> jupyter lab) [ Doc : https://jupyter-notebook.readthedocs.io/en/stable/] [ For vscode : https://code.visualstudio.com/docs/python/jupyter-support ]
+8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Doc</a>
+9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Doc</a> <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For vscode</a>
 </pre>
 
 
