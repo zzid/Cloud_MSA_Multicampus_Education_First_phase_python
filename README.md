@@ -4,7 +4,7 @@
 2020/07/13 ~ 2020/12/24<br>
 
 
-**TODO**<br>
+## TODO
 ------
 <pre>
 <h4>Python open source list (should look up these in advance, before the class)</h4>
@@ -42,7 +42,7 @@
 </pre>
 
 ------
-**Study for first project (Python)**
+## Study for first project (Python)
 <pre>
 - Day_1~ Day_3  :   Basic python grammers<br>
 <a href = "./Practice/Day_4">- Day_4</a>         :   class & object
