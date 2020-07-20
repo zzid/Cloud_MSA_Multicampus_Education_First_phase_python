@@ -1,7 +1,0 @@
-2020-07-17 16:31:47,293- DEBUG     logging_ex2.py:29 - Start of Program
-2020-07-17 16:31:47,294- DEBUG     logging_ex2.py:30 - debug mode
-2020-07-17 16:31:47,295- INFO     logging_ex2.py:31 - info mode
-2020-07-17 16:31:47,295- WARNING     logging_ex2.py:32 - warn mode
-2020-07-17 16:31:47,313- ERROR     logging_ex2.py:33 - error mode
-2020-07-17 16:31:47,314- CRITICAL     logging_ex2.py:34 - critical mode
-2020-07-17 16:31:47,314- DEBUG     logging_ex2.py:35 - End of Program
