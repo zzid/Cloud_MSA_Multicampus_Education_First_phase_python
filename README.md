@@ -9,7 +9,7 @@
 <pre>
 <h4>Python open source list (should look up these in advance, before the class)</h4>
 1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Document</a>
-2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/'>Document</a>
+2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Document</a>
 3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Document</a>
 4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Document</a>
 5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Document</a>
@@ -28,14 +28,14 @@
 
 <pre>
 <h4>Web scraping</h4>
-1. Naver new title search
-2. Naver API (papago translation)
+1. Naver News title search
+2. Naver API (papago translation API)
 3. Naver webtoon download & upload
-4. Weather forcast data search (with beautiful soup)
-5. Korea district search (with pandas, csv data handling)
+4. Weather forcast data search (with beautifulsoup API)
+5. Korea district search (with pandas API, csv data handling)
 6. Melon 100 chart
 7. Paliament search
-(6,7)(Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
+(6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
 8. 팟빵(download mp4)
 9. Cine21 > movie, actor search (with MongoDB)
 10. Machine learning(Just basic)
@@ -52,7 +52,8 @@
 <a href = "./Practice/Day_5">- Day_5</a>         :   pickle
                     Anaconda python & APIs
                     Jupyter
-
+                    Web scraping basic Exercise (with Jupyter)
+                    (News titles scraping, Use Naver papago API)
 </pre>
 
 
