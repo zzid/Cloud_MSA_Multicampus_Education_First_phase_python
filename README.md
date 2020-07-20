@@ -35,9 +35,9 @@ Python open source list (should look up these in advance, before the class)
                     module & import & package
                     exception handling
                     logging(*)  & file processing
-- Day_5         :   pickle
+<a href = "./Practice/Day_5">- Day_5</a>         :   pickle
                     Anaconda python & APIs
-                    [Jupyter](./Practice/Day_5)
+                    Jupyter
 
 </pre>
 
