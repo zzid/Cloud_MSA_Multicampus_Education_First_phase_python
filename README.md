@@ -11,7 +11,6 @@ Python open source list (should look up these in advance, before the class)
 1.	Pandas (Table data processing)
 2.	Requests (Http client) [ doc : https://requests.readthedocs.io/en/master/ ]
 3.	Beautifulsoup (Easier parsing! Easier than RE) [ doc : https://www.crummy.com/software/BeautifulSoup/ ]
-=======
 2.	Requests (Http client)
 3.	Beautifulsoup (Easier parsing! Easier than RE) 
 4.	Matplotlib (Visualizer, visualization)
@@ -31,7 +30,6 @@ Python open source list (should look up these in advance, before the class)
                     logging(*)  & file processing
 - Day_5         :   pickle
                     Anaconda python
-=======
 
 </pre>
 
