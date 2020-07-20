@@ -7,7 +7,7 @@
 **TODO**<br>
 ------
 <pre>
-Python open source list (should look up these in advance, before the class)
+<h4>Python open source list (should look up these in advance, before the class)</h4>
 1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Document</a>
 2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/'>Document</a>
 3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Document</a>
@@ -27,7 +27,7 @@ Python open source list (should look up these in advance, before the class)
 </pre>
 
 <pre>
-<h5>Web scraping</h5>
+<h4>Web scraping</h4>
 1. Naver new title search
 2. Naver API (papago translation)
 3. Naver webtoon download & upload
