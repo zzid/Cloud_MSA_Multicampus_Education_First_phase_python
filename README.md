@@ -9,13 +9,11 @@
 <pre>
 Python open source list (should look up these in advance, before the class)
 1.	Pandas (Table data processing)
-<<<<<<< HEAD
 2.	Requests (Http client) [ doc : https://requests.readthedocs.io/en/master/ ]
 3.	Beautifulsoup (Easier parsing! Easier than RE) [ doc : https://www.crummy.com/software/BeautifulSoup/ ]
 =======
 2.	Requests (Http client)
 3.	Beautifulsoup (Easier parsing! Easier than RE) 
->>>>>>> d2f2eff7bb1951c00d379b614a15b75abaf18597
 4.	Matplotlib (Visualizer, visualization)
 5.	Seaborn (Easier than matplotlib, and more beautiful) 
 6.	Pymysql (Mysql DB connector)
@@ -31,11 +29,10 @@ Python open source list (should look up these in advance, before the class)
                     module & import & package
                     exception handling
                     logging(*)  & file processing
-<<<<<<< HEAD
 - Day_5         :   pickle
                     Anaconda python
 =======
->>>>>>> d2f2eff7bb1951c00d379b614a15b75abaf18597
+
 </pre>
 
 
