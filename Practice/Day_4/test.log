@@ -1,0 +1,7 @@
+2020-07-20 09:59:03,358- DEBUG     logging_ex2_(imp).py:38 - Start of Program
+2020-07-20 09:59:03,358- DEBUG     logging_ex2_(imp).py:39 - debug mode
+2020-07-20 09:59:03,360- INFO     logging_ex2_(imp).py:40 - info mode
+2020-07-20 09:59:03,361- WARNING     logging_ex2_(imp).py:41 - warn mode
+2020-07-20 09:59:03,376- ERROR     logging_ex2_(imp).py:42 - error mode
+2020-07-20 09:59:03,379- CRITICAL     logging_ex2_(imp).py:43 - critical mode
+2020-07-20 09:59:03,379- DEBUG     logging_ex2_(imp).py:44 - End of Program
