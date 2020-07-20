@@ -8,15 +8,22 @@
 ------
 <pre>
 Python open source list (should look up these in advance, before the class)
-1.	Pandas (Table data processing)
-2.	Requests (Http client) [ doc : https://requests.readthedocs.io/en/master/ ]
-3.	Beautifulsoup (Easier parsing! Easier than RE) [ doc : https://www.crummy.com/software/BeautifulSoup/ ]
-2.	Requests (Http client)
-3.	Beautifulsoup (Easier parsing! Easier than RE) 
-4.	Matplotlib (Visualizer, visualization)
-5.	Seaborn (Easier than matplotlib, and more beautiful) 
-6.	Pymysql (Mysql DB connector)
-7.	Sqlalchemy (ORM: Object >> RDB)
+1. Requests (Http client) [ Doc : https://requests.readthedocs.io/en/master/ ]
+2. Beautifulsoup (Easier parsing! Easier than RE) [ Doc : https://www.crummy.com/software/BeautifulSoup/ ]
+3. Pandas (Table data processing, data analysis) [ Doc : https://pandas.pydata.org/ ]
+4. Matplotlib (Visualizer, visualization) [ Doc : https://matplotlib.org/ ]
+5. Seaborn (Easier than matplotlib, and more beautiful) [ Doc : https://seaborn.pydata.org/ ]
+6. Pymysql (Mysql DB connector) [ Doc : https://pymysql.readthedocs.io/en/latest/ ]
+7. Sqlalchemy (ORM: Object >> RDB) [ Doc : ]
+    (
+        Tabular data : DataFrame object
+        ORM Rule :: 
+        Class       <=>     Table
+        Object      <=>     Row(Record)
+        Variable    <=>     Column
+    )
+8. Pymongo (Mongodb driver) [ Doc : https://pymongo.readthedocs.io/en/stable/ ]
+9. Jupyter notebook (>> jupyter lab) [ Doc : https://jupyter-notebook.readthedocs.io/en/stable/] [ For vscode : https://code.visualstudio.com/docs/python/jupyter-support ]
 </pre>
 
 
@@ -29,7 +36,8 @@ Python open source list (should look up these in advance, before the class)
                     exception handling
                     logging(*)  & file processing
 - Day_5         :   pickle
-                    Anaconda python
+                    Anaconda python & APIs
+                    [Jupyter](./Practice/Day_5)
 
 </pre>
 

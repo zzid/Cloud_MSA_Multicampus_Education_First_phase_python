@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import logging,os
 os.chdir('./Practice/Day_4')
-=======
-import logging
->>>>>>> d2f2eff7bb1951c00d379b614a15b75abaf18597
+
 def echo(msg):
     return msg
 '''
