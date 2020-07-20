@@ -12,7 +12,7 @@ Python open source list (should look up these in advance, before the class)
 2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/'>Document</a>
 3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Document</a>
 4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Document</a>
-5. Seaborn (Easier than matplotlib, and more beautiful) <a href=' https://seaborn.pydata.org/'>Document</a>
+5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Document</a>
 6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Document</a>
 7. Sqlalchemy (ORM: Object >> RDB) <a href=''>Document</a>
     (
@@ -26,6 +26,20 @@ Python open source list (should look up these in advance, before the class)
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Document</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
 </pre>
 
+<pre>
+<h5>Web scraping</h5>
+1. Naver new title search
+2. Naver API (papago translation)
+3. Naver webtoon download & upload
+4. Weather forcast data search (with beautiful soup)
+5. Korea district search (with pandas, csv data handling)
+6. Melon 100 chart
+7. Paliament search
+(6,7)(Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
+8. 팟빵(download mp4)
+9. Cine21 > movie, actor search (with MongoDB)
+10. Machine learning(Just basic)
+</pre>
 
 ------
 **Study for first project (Python)**
