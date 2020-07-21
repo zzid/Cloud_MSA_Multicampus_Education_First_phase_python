@@ -51,7 +51,7 @@
                     Anaconda python & APIs
                     Jupyter
                     Web scraping basic Exercise (with Jupyter)
-                    (News titles scraping, Use Naver papago API)
+                    (<a href = "./Practice/Day_5/NHN_service_search.ipynb">News titles scraping</a>, <a href = "./Practice/Day_5/NHN_service_search.ipynb">Use Naver papago API</a>)
 <a href = "./Practice/Day_6">- Day_6</a>         :   HTTP method
                     Web scarping (with BeautifulSoup API)(
                         <a href = "./Practice/Day_6/NHN_webtoon_scraper.ipynb">Naver webtoon</a>
