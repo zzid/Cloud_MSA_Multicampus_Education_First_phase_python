@@ -27,9 +27,9 @@
 
 <pre>
 <h4>Web scraping</h4>
-1. Naver News title search
-2. Naver API (papago translation API)
-3. Naver webtoon download & upload
+<del>1. Naver News title search</del>
+<del>2. Naver API (papago translation API)</del>
+<del>3. Naver webtoon download & upload</del>
 4. Weather forcast data search (with beautifulsoup API)
 5. Korea district search (with pandas API, csv data handling)
 6. Melon 100 chart
