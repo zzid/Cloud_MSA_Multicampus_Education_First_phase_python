@@ -40,7 +40,7 @@
 10. Machine learning(Just basic)
 </pre>
 
-## Study for first project (Python)
+## Today I Learn [Study for first project (Python)]
 <pre>
 - Day_1~ Day_3  :   Basic python grammers<br>
 <a href = "./Practice/Day_4">- Day_4</a>         :   class & object
