@@ -54,8 +54,9 @@
                     (News titles scraping, Use Naver papago API)
 <a href = "./Practice/Day_6">- Day_6</a>         :   HTTP method
                     Web scarping (with BeautifulSoup API)(
-                        <a href = "./Practice/Day_6/NHN_webtoon_scraper.ipynb">Naver webtoon</a>   -> Use CSS selector in BEautifulSoup
-                                        -> Download images and titles etc
+                        <a href = "./Practice/Day_6/NHN_webtoon_scraper.ipynb">Naver webtoon</a>
+                            -> Use CSS selector in BEautifulSoup
+                            -> Download images and titles etc
                     )
 </pre>
 
