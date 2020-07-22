@@ -2,7 +2,7 @@
 **[4차 산업 혁명 선도인력 양성과정]** <br>
 **융복합 프로젝트형 클라우드(MSA) 서비스 개발** <br>
 2020/07/13 ~ 2020/12/24<br>
-
+<a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
 ## TODO
 <pre>
@@ -31,7 +31,7 @@
 <del>1. Naver News title search</del>
 <del>2. Naver API (papago translation API)</del>
 <del>3. Naver webtoon download & upload</del>
-4. Weather forecast data search (with beautifulsoup API)
+<del>4. Weather forecast data search (with beautifulsoup API)</del>
 5. Korea district search (with pandas API, csv data handling)
 6. Melon 100 chart
 7. Paliament search
@@ -59,10 +59,10 @@
                             -> Use CSS selector in BEautifulSoup
                             -> Download images and titles etc
                     )
-<a href = "./Practice/Day_7">- Day_7</a>         :   More about HTTP method
+<a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
-                    <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web
-                    And make that as JSON file(myself)</a>
+                    <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
+                    <a href = "./Practice/Day_7/my_weather.json">And make that as JSON file</a>
                     <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
 </pre>
 
