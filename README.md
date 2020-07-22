@@ -7,13 +7,13 @@
 ## TODO
 <pre>
 <h4>Python open source list</h4>
-1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Document</a>
-2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Document</a>
-3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Document</a>
-4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Document</a>
-5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Document</a>
-6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Document</a>
-7. Sqlalchemy (ORM: Object >> RDB) <a href=''>Document</a>
+1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Documentation</a>
+2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Documentation</a>
+3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Documentation</a>
+4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Documentation</a>
+5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Documentation</a>
+6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Documentation</a>
+7. Sqlalchemy (ORM: Object >> RDB) <a href='https://docs.sqlalchemy.org/en/13/'>Documentation</a>
     (
         Tabular data : DataFrame object
         ORM Rule :: 
@@ -21,9 +21,9 @@
         Object      <=>     Row(Record)
         Variable    <=>     Column
     )
-8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Document</a>
-9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Document</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
-10. Ajax (Q : What is the difference between web before the Ajax, and after the Ajax?)
+8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
+9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
+10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
 </pre>
 
 <pre>
