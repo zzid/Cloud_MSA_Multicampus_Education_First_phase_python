@@ -43,7 +43,7 @@
 
 ## Today I Learn [Study for first project (Python)]
 <pre>
-- Day_1~ Day_3  :   Basic python grammers<br>
+- Day_1~ Day_3  :   Basic python grammars<br>
 <a href = "./Practice/Day_4">- Day_4</a>         :   class & object
                     module & import & package
                     exception handling
@@ -62,8 +62,9 @@
 <a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
                     <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
-                    <a href = "./Practice/Day_7/my_weather.json">And make that as JSON file</a>
+                    <a href = "./Practice/Day_7/my_weather.json">And make that to JSON file</a>
                     <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
+                    <a href = "./Practice/Day_7/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
 </pre>
 
 
