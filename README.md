@@ -6,7 +6,7 @@
 
 ## TODO
 <pre>
-<h4>Python open source list (should look up these in advance, before the class)</h4>
+<h4>Python open source list</h4>
 1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Document</a>
 2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Document</a>
 3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Document</a>
@@ -23,6 +23,7 @@
     )
 8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Document</a>
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Document</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
+10. Ajax (Q : What is the difference between web before the Ajax, and after the Ajax?)
 </pre>
 
 <pre>
@@ -30,7 +31,7 @@
 <del>1. Naver News title search</del>
 <del>2. Naver API (papago translation API)</del>
 <del>3. Naver webtoon download & upload</del>
-4. Weather forcast data search (with beautifulsoup API)
+4. Weather forecast data search (with beautifulsoup API)
 5. Korea district search (with pandas API, csv data handling)
 6. Melon 100 chart
 7. Paliament search
@@ -58,6 +59,11 @@
                             -> Use CSS selector in BEautifulSoup
                             -> Download images and titles etc
                     )
+<a href = "./Practice/Day_7">- Day_7</a>         :   More about HTTP method
+                    Basic of Regular Expression
+                    <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web
+                    And make that as JSON file(myself)</a>
+                    <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
 </pre>
 
 
