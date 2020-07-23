@@ -32,9 +32,9 @@
 <del>2. Naver API (papago translation API)</del>
 <del>3. Naver webtoon download & upload</del>
 <del>4. Weather forecast data search (with beautifulsoup API)</del>
-5. Korea district search (with pandas API, csv data handling)
+<del>5. Korea Administrative area data analysing (with pandas API, csv data handling)</del>
 6. Melon 100 chart
-7. Paliament search
+7. Korea Paliament search
 (6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
 8. 팟빵(download mp4)
 9. Cine21 > movie, actor search (with MongoDB)
@@ -65,6 +65,9 @@
                     <a href = "./Practice/Day_7/my_weather.json">And make that to JSON file</a>
                     <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
                     <a href = "./Practice/Day_7/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
+<a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
+                    <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
+                    Database install > <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
 </pre>
 
 
