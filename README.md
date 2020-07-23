@@ -2,6 +2,8 @@
 **[4차 산업 혁명 선도인력 양성과정]** <br>
 **융복합 프로젝트형 클라우드(MSA) 서비스 개발** <br>
 2020/07/13 ~ 2020/12/24<br>
+
+* 2020/07/14~<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
 ## TODO
