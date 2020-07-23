@@ -44,6 +44,7 @@
                             -> Download im
                             ages and titles etc
                     )
+                    
 <a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
                     <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
@@ -54,7 +55,7 @@
 <a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
                     <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
                     Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
-                    
+
 </pre>
 
 ## APIs
