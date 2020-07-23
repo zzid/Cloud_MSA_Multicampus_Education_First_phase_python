@@ -4,27 +4,6 @@
 2020/07/13 ~ 2020/12/24<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
-## APIs
-<pre>
-<h4>Python open source list</h4>
-1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Documentation</a>
-2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Documentation</a>
-3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Documentation</a>
-4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Documentation</a>
-5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Documentation</a>
-6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Documentation</a>
-7. Sqlalchemy (ORM: Object >> RDB) <a href='https://docs.sqlalchemy.org/en/13/'>Documentation</a>
-    (
-        Tabular data : DataFrame object
-        ORM Rule :: 
-        Class       <=>     Table
-        Object      <=>     Row(Record)
-        Variable    <=>     Column
-    )
-8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
-9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
-10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
-</pre>
 ## TODO
 <pre>
 <h4>Web scraping</h4>
@@ -70,4 +49,24 @@
                     Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
 </pre>
 
-
+## APIs
+<pre>
+<h4>Python open source list</h4>
+1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Documentation</a>
+2. Beautifulsoup (Easier parsing! Easier than RE) <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/'>Documentation</a>
+3. Pandas (Table data processing, data analysis) <a href='https://pandas.pydata.org/'>Documentation</a>
+4. Matplotlib (Visualizer, visualization) <a href='https://matplotlib.org/'>Documentation</a>
+5. Seaborn (Easier than matplotlib, and more beautiful) <a href='https://seaborn.pydata.org/'>Documentation</a>
+6. Pymysql (Mysql DB connector) <a href = 'https://pymysql.readthedocs.io/en/latest/' >Documentation</a>
+7. Sqlalchemy (ORM: Object >> RDB) <a href='https://docs.sqlalchemy.org/en/13/'>Documentation</a>
+    (
+        Tabular data : DataFrame object
+        ORM Rule :: 
+        Class       <=>     Table
+        Object      <=>     Row(Record)
+        Variable    <=>     Column
+    )
+8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
+9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
+10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
+</pre>
