@@ -25,20 +25,24 @@
 ## Today I Learn [Study for first project (Python)]
 <pre>
 - Day_1~ Day_3  :   Basic python grammars<br>
+
 <a href = "./Practice/Day_4">- Day_4</a>         :   class & object
                     module & import & package
                     exception handling
                     logging(*)  & file processing
+
 <a href = "./Practice/Day_5">- Day_5</a>         :   pickle
                     Anaconda python & APIs
                     Jupyter
                     Web scraping basic Exercise (with Jupyter)
                     (<a href = "./Practice/Day_5/NHN_service_search.ipynb">News titles scraping</a>, <a href = "./Practice/Day_5/NHN_service_search.ipynb">Use Naver papago API</a>)
+
 <a href = "./Practice/Day_6">- Day_6</a>         :   HTTP method
                     Web scarping (with BeautifulSoup API)(
                         <a href = "./Practice/Day_6/NHN_webtoon_scraper.ipynb">Naver webtoon</a>
                             -> Use CSS selector in BEautifulSoup
-                            -> Download images and titles etc
+                            -> Download im
+                            ages and titles etc
                     )
 <a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
@@ -46,9 +50,11 @@
                     <a href = "./Practice/Day_7/my_weather.json">And make that to JSON file</a>
                     <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
                     <a href = "./Practice/Day_7/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
+
 <a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
                     <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
                     Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
+                    
 </pre>
 
 ## APIs
