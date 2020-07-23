@@ -4,7 +4,7 @@
 2020/07/13 ~ 2020/12/24<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
-## TODO
+## APIs
 <pre>
 <h4>Python open source list</h4>
 1. Requests (Http client) <a href = 'https://requests.readthedocs.io/en/master/'>Documentation</a>
@@ -25,7 +25,7 @@
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
 10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
 </pre>
-
+## TODO
 <pre>
 <h4>Web scraping</h4>
 <del>1. Naver News title search</del>
