@@ -67,7 +67,7 @@
                     <a href = "./Practice/Day_7/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
 <a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
                     <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
-                    Database install > <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
+                    Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
 </pre>
 
 
