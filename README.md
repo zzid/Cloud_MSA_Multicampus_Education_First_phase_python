@@ -14,12 +14,12 @@
 <del>3. Naver webtoon download & upload</del>
 <del>4. Weather forecast data search (with beautifulsoup API)</del>
 <del>5. Korea Administrative area data analysing (with pandas API, csv data handling)</del>
-6. Melon 100 chart
+<del>6. Melon 100 chart</del>
 7. Korea Paliament search
 (6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
 8. 팟빵(download mp4)
 9. Cine21 > movie, actor search (with MongoDB)
-10. Machine learning(Just basic)
+10. Machine learning(Just basics)
 </pre>
 
 ## Today I Learn [Study for first project (Python)]
@@ -44,7 +44,7 @@
                             -> Download im
                             ages and titles etc
                     )
-                    
+
 <a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
                     <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
@@ -55,6 +55,10 @@
 <a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
                     <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
                     Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
+
+<a href = "./Practice/Day_9">- Day_8</a>         :   <a href = "./Practice/Day_9/melon_scraping.ipynb">Melon top 100 chart scraping(BeautifulSoup API)</a>
+                    <a href = "./Practice/Day_9/parliament_scapring.ipynb">Collecting korea congressman data from web(BeautifulSoup API)</a>
+                    <a href = "./Practice/Day_9/parliament_scapring.ipynb">And analysing that with Pandas API</a>
 
 </pre>
 
@@ -77,5 +81,5 @@
     )
 8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
-10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
+10. Ajax (Q : What is the difference in Web between before and after the Ajax?) <a href = "./Practice/Day_9/parliament_scapring.ipynb">Short explain</a>
 </pre>
