@@ -1,4 +1,4 @@
-'''sql
+```sql
 # 1. descending order by release_date
 SELECT *
 FROM songs
@@ -76,4 +76,4 @@ where album like '%OST %';
 select *
 from songs
 where album not like '%OST %';
-'''
+```
