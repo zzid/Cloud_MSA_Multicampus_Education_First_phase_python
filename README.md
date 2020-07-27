@@ -62,7 +62,7 @@
 
 <a href = "./Practice/Day_010">- Day_10</a>        :   <a href="./Practice/Day_010/query_ex.md">SQL query Basics</a>
                     <a href = "./Practice/Day_010/melon_songs_to_db.ipynb">JSON to Pandas data frame</a>
-                    <a href ="./Practice/Day_010/congressman_cont.ipynb">DB < - > Pandas data frame</a>
+                    <a href ="./Practice/Day_010/congressman_cont.ipynb">DB <-> Pandas data frame</a>
 </pre>
 
 ## APIs
