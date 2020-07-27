@@ -26,40 +26,43 @@
 <pre>
 - Day_1~ Day_3  :   Basic python grammars<br>
 
-<a href = "./Practice/Day_4">- Day_4</a>         :   class & object
+<a href = "./Practice/Day_004">- Day_4</a>         :   class & object
                     module & import & package
                     exception handling
                     logging(*)  & file processing
 
-<a href = "./Practice/Day_5">- Day_5</a>         :   pickle
+<a href = "./Practice/Day_005">- Day_5</a>         :   pickle
                     Anaconda python & APIs
                     Jupyter
                     Web scraping basic Exercise (with Jupyter)
-                    (<a href = "./Practice/Day_5/NHN_service_search.ipynb">News titles scraping</a>, <a href = "./Practice/Day_5/NHN_service_search.ipynb">Use Naver papago API</a>)
+                    (<a href = "./Practice/Day_005/NHN_service_search.ipynb">News titles scraping</a>, <a href = "./Practice/Day_005/NHN_service_search.ipynb">Use Naver papago API</a>)
 
-<a href = "./Practice/Day_6">- Day_6</a>         :   HTTP method
+<a href = "./Practice/Day_006">- Day_6</a>         :   HTTP method
                     Web scarping (with BeautifulSoup API)(
-                        <a href = "./Practice/Day_6/NHN_webtoon_scraper.ipynb">Naver webtoon</a>
+                        <a href = "./Practice/Day_006/NHN_webtoon_scraper.ipynb">Naver webtoon</a>
                             -> Use CSS selector in BEautifulSoup
                             -> Download im
                             ages and titles etc
                     )
 
-<a href = "./Practice/Day_7">- Day_7</a>         :   More about BeautifulSoup API function
+<a href = "./Practice/Day_007">- Day_7</a>         :   More about BeautifulSoup API function
                     Basic of Regular Expression
-                    <a href = "./Practice/Day_7/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
-                    <a href = "./Practice/Day_7/my_weather.json">And make that to JSON file</a>
-                    <a href = "./Practice/Day_7/table_practice.html">Practice HTML basic a little bit</a>
-                    <a href = "./Practice/Day_7/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
+                    <a href = "./Practice/Day_007/weather_web_scraping.ipynb">Get(download) weather forecast data from web</a>
+                    <a href = "./Practice/Day_007/my_weather.json">And make that to JSON file</a>
+                    <a href = "./Practice/Day_007/table_practice.html">Practice HTML basic a little bit</a>
+                    <a href = "./Practice/Day_007/pandas_ex.ipynb">CSV file analysing with Pandas API</a>
 
-<a href = "./Practice/Day_8">- Day_8</a>         :   <a href = "./Practice/Day_8/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_8/pandas_ex.ipynb">Practice</a>
-                    <a href = "./Practice/Day_8/matplotlib_ex.ipynb">Matplotlib API</a>
-                    Database install >> <a href = "./Practice/Day_8/pymysql_ex.ipynb">Pymysql API</a>
+<a href = "./Practice/Day_008">- Day_8</a>         :   <a href = "./Practice/Day_008/pandas_cont.ipynb">Continue Pandas API</a> and <a href = "./Practice/Day_008/pandas_ex.ipynb">Practice</a>
+                    <a href = "./Practice/Day_008/matplotlib_ex.ipynb">Matplotlib API</a>
+                    Database install >> <a href = "./Practice/Day_008/pymysql_ex.ipynb">Pymysql API</a>
 
-<a href = "./Practice/Day_9">- Day_8</a>         :   <a href = "./Practice/Day_9/melon_scraping.ipynb">Melon top 100 chart scraping(BeautifulSoup API)</a>
-                    <a href = "./Practice/Day_9/congressman_scarping.ipynb">Collecting korea congressman data from web(BeautifulSoup API)</a>
-                    <a href = "./Practice/Day_9/congressman_scarping.ipynb">And analysing that with Pandas API</a>
+<a href = "./Practice/Day_009">- Day_9</a>         :   <a href = "./Practice/Day_009/melon_scraping.ipynb">Melon top 100 chart scraping(BeautifulSoup API)</a>
+                    <a href = "./Practice/Day_009/congressman_scarping.ipynb">Collecting korea congressman data from web(BeautifulSoup API)</a>
+                    <a href = "./Practice/Day_009/congressman_scarping.ipynb">And analysing that with Pandas API</a>
 
+<a href = "./Practice/Day_010">- Day_10</a>         :   <a href="./Practice/Day_010/query_ex.md">SQL query Basics</a>
+                    <a href ="./Practice/Day_010/congressman_cont.ipynb">JSON to Pandas data frame</a>
+                    <a href = "./Practice/Day_010/melon_songs_to_db.ipynb">DB < - > Pandas data frame</a>
 </pre>
 
 ## APIs
