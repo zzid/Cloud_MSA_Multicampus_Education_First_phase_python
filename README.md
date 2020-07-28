@@ -15,7 +15,7 @@
 <del>4. Weather forecast data search (with beautifulsoup API)</del>
 <del>5. Korea Administrative area data analysing (with pandas API, csv data handling)</del>
 <del>6. Melon 100 chart</del>
-7. Korea congressman search
+<del>7. Korea congressman search</del>
 (6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
 8. 팟빵(download mp4)
 9. Cine21 > movie, actor search (with MongoDB)
@@ -63,7 +63,12 @@
 <a href = "./Practice/Day_010">- Day_10</a>        :   <a href="./Practice/Day_010/query_ex.md">SQL query Basics</a>
                     <a href = "./Practice/Day_010/melon_songs_to_db.ipynb">JSON to Pandas data frame</a>
                     <a href ="./Practice/Day_010/congressman_cont.ipynb">DB <-> Pandas data frame</a>
-</pre>
+
+<a href = "./Practice/Day_011">- Day_11</a>        :   <a href = "./Practice/Day_011/sql_ex.md">More SQL Basics </a>
+                    <a href = "./Practice/Day_011/pymysql_ex.ipynb">Use pymysql API : PL <-> DB</a>
+                    <a href = "./Practice/Day_011/web_scraping_mp3_podbbang">Podbbang web scraping (single page)</a>
+                    <a href = "./Practice/Day_011/advanced_web_scraping_mp3_podbbang">Podbbang web scraping (multiple pages)</a>
+</pre>            
 
 ## APIs
 <pre>
