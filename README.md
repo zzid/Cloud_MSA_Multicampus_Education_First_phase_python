@@ -16,8 +16,8 @@
 <del>5. Korea Administrative area data analysing (with pandas API, csv data handling)</del>
 <del>6. Melon 100 chart</del>
 <del>7. Korea congressman search</del>
-(6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)
-8. 팟빵(download mp4)
+<del>(6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)</del>
+<del>8. 팟빵(download mp4)</del>
 9. Cine21 > movie, actor search (with MongoDB)
 10. Machine learning(Just basics)
 </pre>
