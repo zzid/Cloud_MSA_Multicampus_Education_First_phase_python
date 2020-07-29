@@ -69,8 +69,8 @@
                     <a href = "./Practice/Day_011/web_scraping_mp3_podbbang">Podbbang web scraping (single page)</a>
                     <a href = "./Practice/Day_011/advanced_web_scraping_mp3_podbbang">Podbbang web scraping (multiple pages)</a>
 <a href = "./Practice/Day_012">- Day_12</a>        :    <a href = "./Practice/Day_012/selenium_ex.ipynb">Selenium Basic</a>
-                    <a href = './docs/mongodb_pymongo/1.mongodb_basic_open.ipynb'>  MongoDB</a>
-                    <a href = '/Practice/Day_012/mongoDB_sql_ex.md'>  MongoDB query exercise</a>
+                    <a href = './docs/mongodb_pymongo/1.mongodb_basic_open.ipynb'> MongoDB</a>
+                    <a href = '/Practice/Day_012/mongoDB_sql_ex.md'> MongoDB query exercise</a>
 
 </pre>            
 
