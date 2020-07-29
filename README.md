@@ -68,6 +68,10 @@
                     <a href = "./Practice/Day_011/pymysql_ex.ipynb">Use pymysql API : PL <-> DB</a>
                     <a href = "./Practice/Day_011/web_scraping_mp3_podbbang">Podbbang web scraping (single page)</a>
                     <a href = "./Practice/Day_011/advanced_web_scraping_mp3_podbbang">Podbbang web scraping (multiple pages)</a>
+<a href = "./Practice/Day_012">- Day_12</a>        :    <a href = "./Practice/Day_012/selenium_ex.ipynb">Selenium Basic</a>
+                    <a href = './docs/mongodb_pymongo/1.mongodb_basic_open.ipynb'>MongoDB</a>
+                    <a href = '/Practice/Day_012/mongoDB_sql_ex.md'>MongoDB query exercise</a>
+
 </pre>            
 
 ## APIs
@@ -87,7 +91,8 @@
         Object      <=>     Row(Record)
         Variable    <=>     Column
     )
-8. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
+8-1. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
+8-2. MongoDB <a href = 'https://docs.mongodb.com/manual/tutorial/getting-started/'>Tutorial</a> || <a href = 'https://docs.mongodb.com/drivers/pymongo'>Drivers</a>
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
 10. Ajax (Q : What is the difference in Web between before and after the Ajax?) <a href = "./Practice/Day_9/congressman_scarping.ipynb">Short explain</a>
 </pre>
