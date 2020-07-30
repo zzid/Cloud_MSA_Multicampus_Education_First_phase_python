@@ -104,6 +104,6 @@
 </pre>
 
 
-[NoSQL] (https://tinyurl.com/y2zmhhx4) <br>
-[Mongo DB] (https://tinyurl.com/yxnsslgs) <br>
-[Database shard] (https://tinyurl.com/yyh64kck) <br>
+[NoSQL](https://tinyurl.com/y2zmhhx4) <br>
+[Mongo DB](https://tinyurl.com/yxnsslgs) <br>
+[Database shard](https://tinyurl.com/yyh64kck) <br>
