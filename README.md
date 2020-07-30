@@ -72,8 +72,12 @@
 <a href = "./Practice/Day_012">- Day_12</a>        :   <a href = "./Practice/Day_012/selenium_ex.ipynb">Selenium Basic</a>
                     <a href = './docs/mongodb_pymongo/1.mongodb_basic_open.ipynb'>MongoDB</a>
                     <a href = '/Practice/Day_012/mongoDB_sql_ex.md'>MongoDB query exercise</a>
+<a href = "./Practice/Day_013">- Day_12</a>        :   <a href = "./Practice/Day_013/mongodb_sql_aggregate_ex.md">Aggregation in mongoDB(NoSQL)</a>
+                    <a href = "./Practice/Day_013/pymongo_basic.ipynb">Pymongo Basic</a> and
+                    <a href = "./Practice/Day_013/json_to_mongodb_and_use.ipynb">JSON to mongoDB and Handling with pymongo</a>
+                    
 
-</pre>            
+</pre>                 
 
 ## APIs
 <pre>
@@ -97,3 +101,8 @@
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
 10. Ajax (Q : What is the difference in Web between before and after the Ajax?) <a href = "./Practice/Day_9/congressman_scarping.ipynb">Short explain</a>
 </pre>
+
+
+[NoSQL] (https://tinyurl.com/y2zmhhx4) <br>
+[Mongo DB] (https://tinyurl.com/yxnsslgs) <br>
+[Database shard] (https://tinyurl.com/yyh64kck) <br>
