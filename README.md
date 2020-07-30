@@ -72,6 +72,7 @@
 <a href = "./Practice/Day_012">- Day_12</a>        :   <a href = "./Practice/Day_012/selenium_ex.ipynb">Selenium Basic</a>
                     <a href = './docs/mongodb_pymongo/1.mongodb_basic_open.ipynb'>MongoDB</a>
                     <a href = '/Practice/Day_012/mongoDB_sql_ex.md'>MongoDB query exercise</a>
+                    
 <a href = "./Practice/Day_013">- Day_13</a>        :   <a href = "./Practice/Day_013/mongodb_sql_aggregate_ex.md">Aggregation in mongoDB(NoSQL)</a>
                     <a href = "./Practice/Day_013/pymongo_basic.ipynb">Pymongo Basic</a> and
                     <a href = "./Practice/Day_013/json_to_mongodb_and_use.ipynb">JSON to mongoDB and Handling with pymongo</a>
