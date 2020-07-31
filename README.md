@@ -18,7 +18,7 @@
 <del>7. Korea congressman search</del>
 <del>(6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)</del>
 <del>8. 팟빵(download mp4)</del>
-9. Cine21 > movie, actor search (with MongoDB)
+<del>9. Cine21 > movie, actor search (with MongoDB)</del>
 10. Machine learning(Just basics)
 </pre>
 
@@ -76,6 +76,11 @@
 <a href = "./Practice/Day_013">- Day_13</a>        :   <a href = "./Practice/Day_013/mongodb_sql_aggregate_ex.md">Aggregation in mongoDB(NoSQL)</a>
                     <a href = "./Practice/Day_013/pymongo_basic.ipynb">Pymongo Basic</a> and
                     <a href = "./Practice/Day_013/json_to_mongodb_and_use.ipynb">JSON to mongoDB and Handling with pymongo</a>
+                    
+<a href = "./Practice/Day_014">- Day_14</a>        :   <a href = "./Practice/Day_014/pymongo_ex.ipynb">More pymongo(USA post code data)</a>
+                    <a href = "./Practice/Day_014/cine21_web_scrap.ipynb">Cine21 web scraping</a> and
+                    <a href = "./Practice/Day_014/cine21_web_scrap_advance.ipynb">Advance version(several pages)</a> and
+                    <a href = "./Practice/Day_014/actor.json">store that to json file</a>
                     
 
 </pre>                 
