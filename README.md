@@ -110,7 +110,8 @@
 8-1. Pymongo (Mongodb driver) <a href= 'https://pymongo.readthedocs.io/en/stable/'>Documentation</a>
 8-2. MongoDB <a href = 'https://docs.mongodb.com/manual/tutorial/getting-started/'>Tutorial</a> || <a href = 'https://docs.mongodb.com/drivers/pymongo'>Drivers</a>
 9. Jupyter notebook (>> jupyter lab) <a href = "https://jupyter-notebook.readthedocs.io/en/stable/">Documentation</a> || <a href = "https://code.visualstudio.com/docs/python/jupyter-support">For_VScode</a>
-10. Ajax (Q : What is the difference in Web between before and after the Ajax?) <a href = "./Practice/Day_9/congressman_scarping.ipynb">Short explain</a>
+10. Ajax (Q : What is the difference in Web between before and after the Ajax?)
+  <a href = "./Practice/Day_9/congressman_scarping.ipynb"> >> Short explain</a>
 </pre>
 
 
