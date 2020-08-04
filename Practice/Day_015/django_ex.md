@@ -7,7 +7,7 @@
 * Spagetti code :  massy code
 
 <del><< partition the roles >></del>
-"Seperation Of Concerns(Responsibility)"  > (SOC)
+"Seperation Of Concerns(Responsibility)"
 * MVC pattern : 
     M(Model) - connect with DB
     V(View) - View(output?)
