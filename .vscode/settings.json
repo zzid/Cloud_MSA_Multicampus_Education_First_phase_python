@@ -1,8 +1,8 @@
 {
     "files.autoSave": "afterDelay",
-    "python.pythonPath": "C:\\Anaconda3\\python.exe",
-    "python.autoComplete.extraPaths" : ["C:\\Anaconda3\\Lib",
-        "C:\\Anaconda3\\Library"],
+    "python.pythonPath": "C:\\Users\\93101\\AppData\\Local\\Programs\\Python\\Python37",
+    // "python.autoComplete.extraPaths" : ["C:\\Anaconda3\\Lib",
+    //     "C:\\Anaconda3\\Library"],
     "python.autoComplete.addBrackets": true,
 
 }

@@ -8,6 +8,8 @@
 
 ## TODO
 <pre>
+<h4><a href = "./django_project">Django web framework</a></h4>
+
 <h4>Web scraping</h4>
 <del>1. Naver News title search</del>
 <del>2. Naver API (papago translation API)</del>
@@ -82,6 +84,9 @@
                     <a href = "./Practice/Day_014/cine21_web_scrap_advance.ipynb">Advance version(several pages)</a> and
                     <a href = "./Practice/Day_014/actor.json">store that to json file</a>
                     
+<a href = "./Practice/Day_015">- Day_15</a>        :    <a href = "cine21_data_to_db.ipynb">Store Cine21 data to DB and handling</a>
+                    <a href = "./django_project">Start of Django</a> and 
+                    <a href = "./Practice/Day_015/django_ex.md">Study about that</a>
 
 </pre>                 
 
