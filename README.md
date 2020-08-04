@@ -6,10 +6,13 @@
 * [First project] :: 2020/07/14~<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
-## TODO
+### Pre-Project
 <pre>
 <h4><a href = "./django_project">Django web framework</a></h4>
+</pre>
 
+## TODO
+<pre>
 <h4>Web scraping</h4>
 <del>1. Naver News title search</del>
 <del>2. Naver API (papago translation API)</del>
