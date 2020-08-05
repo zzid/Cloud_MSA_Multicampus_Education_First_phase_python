@@ -8,7 +8,12 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default = timezone.now)
     published_date = models.DateTimeField(blank = True, null =True)
+    
 
+    ## 2020.08.05
+    ## Field for testing 
+    
+    # test = models.TextField()
 
     '''
         publish :

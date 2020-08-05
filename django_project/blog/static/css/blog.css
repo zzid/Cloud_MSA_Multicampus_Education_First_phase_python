@@ -1,0 +1,14 @@
+body{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Do Hyeon', sans-serif;
+}
+#git:hover{
+    content : url('http://pngimg.com/uploads/github/github_PNG15.png');
+    width : 60;
+}
+#head_post{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    color : white;
+}

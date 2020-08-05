@@ -22,7 +22,7 @@
 ### Commands
 <pre>
 >> django-admin startproject mydjango django_src
-    (mydjango >> project name, django_src >> folder name)
+    (mydjango :: project name || django_src :: folder name)
 >> python manage.py migrate
     (Create DB)
 >> python manage.py runserver
@@ -35,6 +35,7 @@
     (Create migration file :: written with SQL)
 >>  python manage.py migrate blog
     (use migration file :: Model to Table)
+    
 </pre>
 
 ### Notes
@@ -56,4 +57,23 @@ Dynamic Web Application
 : ASP .NET
 : django, flask
 
+CDN(Content Delivery Network) service
+
+
+</pre>
+
+
+### Appended code
+<pre>
+<a href="./blog/admin.py">Create PostAdmin</a> : customize admin page
+urls.py
+views.py
+post_list.html
+
+QuerySet : python manage.py shell
+** csrf_token tag
+
+
+bootstrap
+css
 </pre>
