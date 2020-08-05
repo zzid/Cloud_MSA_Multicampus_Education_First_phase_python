@@ -1,11 +1,11 @@
 ### dJango
-<pre>
-<a href = "../../docs/Django웹프레임워크.pdf">Doc</a>
 
+<a href = "../docs/Django웹프레임워크.pdf">Document</a>
+
+<pre>
 * SI(System Integration), SM(System Management?)
 
 * Spagetti code :  massy code
-
 <del><< partition the roles >></del>
 "Seperation Of Concerns(Responsibility)"
 * MVC pattern : 
@@ -17,7 +17,10 @@
     M(Model) - connect with DB
     T(Template) - View(output?)
     V(View) - Make connection between Template and Model (Simillar with Controller in MVC pattern)
+</pre>
 
+### Commnads
+<pre>
 >> django-admin startproject mydjango django_src
     (mydjango >> project name, django_src >> folder name)
 >> python manage.py migrate
@@ -32,15 +35,25 @@
     (Create migration file :: written with SQL)
 >>  python manage.py migrate blog
     (use migration file :: Model to Table)
+</pre>
 
+### Notes
+<pre>
 * ORM mapping rule : 
     Class               <-> Table
     Object              <-> Row(Record)
     Variable(Attribute) <-> Column
 
-qs = Post.objects.all()
+# qs = Post.objects.all()
     >> This is ORM
     >> That means, you don't need to write a query like SQL
     >> objects all mean same with [ select * from post ]
-    
+
+[ Web Frameworks ]
+Dynamic Web Application
+: Servlet/JSP + JDBC, Spring WebMVC + Mybatis, Spring Boos + JPA
+: php
+: ASP .NET
+: django, flask
+
 </pre>
