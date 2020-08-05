@@ -19,7 +19,7 @@
     V(View) - Make connection between Template and Model (Simillar with Controller in MVC pattern)
 </pre>
 
-### Commnads
+### Commands
 <pre>
 >> django-admin startproject mydjango django_src
     (mydjango >> project name, django_src >> folder name)
