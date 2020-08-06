@@ -91,8 +91,15 @@
                     <a href = "./django_project">Start of Django</a> and 
                     <a href = "./django_project/django_ex.md">Study about that</a>
 
-<a href = "./Practice/Day_016">- Day_16</a>        :   <a href = "./django_project">Still on Django Project</a>
-
+<a href = "./django_project">- Day_16</a>        :   Django Simple Project
+                        Create Django project and basics
+                        MVT pattern
+                        CSS, Bootstrap
+<a href = "./django_project">- Day_17</a>        :   Django Simple Project
+                        HTML inheritance
+                        Many functions in blog/view.py
+                        Form module
+                        Log-in module
 </pre>                 
 
 ## APIs

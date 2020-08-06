@@ -1,5 +1,9 @@
+'''
+2020.8.6
+    postForm
+'''
 from django.shortcuts import render
-from .forms import PostForm
+from .forms import PostModelForm, PostForm
 '''
 2020.08.05
     post_list
@@ -7,7 +11,10 @@ from .forms import PostForm
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render
 from .models import Post
-
+from django.shortcuts import redirect
+from django.utils import timezone
+from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 ## this is naive
 # def post_list(request):
 #     name = 'Django'
@@ -28,7 +35,7 @@ from .models import Post
 
 ## Rending with use html static file
 def post_list(request):
-    post_list = Post.objects.all()
+    post_list = Post.objects.all().order_by('-created_date')
     # post_list = Post.objects.filter(published_date__gte = timezone.now())\
     #     .order_by('published_date')
     param = {
@@ -38,7 +45,7 @@ def post_list(request):
 
 
 
-## 2020.8.6
+## 2020.8.6 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     param ={
@@ -46,5 +53,44 @@ def post_detail(request, pk):
     }
     return render(request, 'blog/post_detail.html', param)
 
-def post_edit(request):
-    return render(request,'blog/post_edit.html')
+@login_required
+def post_edit(request,pk):
+    post = get_object_or_404(Post,pk=pk)
+    if request.method == 'POST':
+        form = PostModelForm(request.POST, instance = post) ## this is different with post_new
+        if form.is_valid():
+            post = form.save(commit=False) ## commit = False :: not gonna store that to DB now
+            post.author = User.objects.get(username = request.user.username)
+            post.published_date = timezone.now()
+            post.save()
+            return redirect('post_detail', pk = post.pk)
+    else:
+        form = PostModelForm(instance=post)
+    return render(request,'blog/post_edit.html', {'form' : form})
+
+@login_required
+def post_new(request):
+    if request.method == "POST": ## if save button has been clicked >> I set that to POST method.
+        form = PostForm(request.POST)  
+        if form.is_valid(): # PostForm class
+            # print(form.cleaned_data)
+            post = Post.objects.create(
+                        author = User.objects.get(username= request.user.username),
+                        published_date = timezone.now(),
+                        title=form.cleaned_data['title'],
+                        text= form.cleaned_data['text']
+                    )
+            # post = form.save(commit=False) 
+            # post.author = User.objects.get(username = request.user.username)
+            # post.published_date = timezone.now()
+            # post.save()
+            return redirect('post_detail', pk=post.pk)
+    else: ## GET Method
+        form = PostForm() 
+    return render(request,'blog/post_edit.html',{'form' : form})
+
+@login_required
+def post_remove(request, pk):
+    post = get_object_or_404(Post, pk = pk)
+    post.delete()
+    return redirect('post_list')

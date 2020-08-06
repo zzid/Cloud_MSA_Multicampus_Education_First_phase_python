@@ -1,15 +1,23 @@
 <!-- 2020.8.6 -->
 {% extends 'blog/base.html' %}
 {% block content %}
-<a href="/"><div class="text-left">Go back to list</div></a>    
+<div class="text-left"><a href="/">Go back to list</a></div>
     <div class="post">
-        {% if post.published_date %}
-            <div class="date">
-            {{ post.published_date }}
-            </div>
-        {% endif %}
-        <h1>{{ post.id }}, {{ post.title }}</h1>
+        <h1>{{ post.title }}</h1>
         <p>{{ post.text|linebreaksbr }}</p>
+        {% if post.published_date %}
+        <div class="date text-left">
+        {{ post.published_date }}
+        </div>
+    {% endif %}
     </div>
-    <a href="/"><div class="text-right">Go back to list</div></a>
+    <!-- <span class='glyphicon glyphicon-pencil'></span> -->
+    <!-- <span class="glyphicon glyphicon-remove"></span> -->
+    <div>
+        <a href="{% url 'post_edit' pk=post.pk %}">Modify</a> / 
+        <a href="{% url 'post_remove' pk=post.pk %}">Delete</a>
+    </div>
+    <div class="text-right">
+        <a href="/">Go back to list</a>
+    </div>
 {% endblock %}
