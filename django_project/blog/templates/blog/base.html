@@ -1,0 +1,59 @@
+<!-- html inheritance 2020.8.6 -->
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <!-- Font (typhograpy) -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Do+Hyeon&family=Lato&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body{
+            font-family: 'Bree Serif', serif;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+
+    </style>
+    <title>Django blog</title>
+</head>
+<body>
+    <a href="/" style="text-decoration : none">
+        <div id='head_post'class='h1 text-center'>
+            Django Blog
+        </div>
+    </a>
+    <div class ='container-fluid'>
+        <div class='text-right'>
+            <a class ='h5' href="{% url 'post_edit' %}" >Write new post</a>
+        </div>
+        {% block content %}
+        {% endblock %}
+        <div>
+            {% comment "Optional note" %}
+                Server commnet
+            {% endcomment %}
+            <!-- html Client Comment -->
+        </div>
+        <footer class ='card-footer text-muted'>
+            <div class ='row mx-md-n5'>
+                <div class="col px-md-5">
+                    <a href = "https://github.com/zzid" target = "_blank">
+                        <img id='git'src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" width = 70>
+                    </a>
+                </div>
+                <div class="col px-md-5">
+                    <a class ='h5' href="admin/" >Go to Admin Page</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

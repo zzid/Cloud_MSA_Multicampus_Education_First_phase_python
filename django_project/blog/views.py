@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import PostForm
 '''
 2020.08.05
     post_list
@@ -27,15 +28,23 @@ from .models import Post
 
 ## Rending with use html static file
 def post_list(request):
-    my_git_url = 'https://www.github.com/zzid'
-    git_icon_path = "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
-
     post_list = Post.objects.all()
     # post_list = Post.objects.filter(published_date__gte = timezone.now())\
     #     .order_by('published_date')
     param = {
-        'my_git_url' : my_git_url,
-        'git_icon_path' : git_icon_path,
         'post_list' : post_list,
     }
     return render(request, 'blog/post_list.html', param)
+
+
+
+## 2020.8.6
+def post_detail(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    param ={
+        'post' : post,
+    }
+    return render(request, 'blog/post_detail.html', param)
+
+def post_edit(request):
+    return render(request,'blog/post_edit.html')

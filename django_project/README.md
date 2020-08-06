@@ -72,8 +72,10 @@ post_list.html
 
 QuerySet : python manage.py shell
 ** csrf_token tag
-
-
 bootstrap
 css
+--------------------------------------
+2020.8.6
+html inheritance
+
 </pre>

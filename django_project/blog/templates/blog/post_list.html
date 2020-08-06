@@ -1,95 +1,19 @@
-{% load static %}
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
-    <link rel="icon" href="{% static 'favicon.ico' %}">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-    <!-- Font (typhograpy) -->
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Do+Hyeon&family=Lato&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    
-
-    
-    <!-- Custom CSS -->
-    <style>
-        body{
-            font-family: 'Bree Serif', serif;
-            font-family: 'Do Hyeon', sans-serif;
-        }
-        #git:hover{
-            content : url('http://pngimg.com/uploads/github/github_PNG15.png');
-            width : 60;
-        }
-        #head_post{
-            padding-top: 25px;
-            padding-bottom: 25px;
-            background-color: black;
-            color : white;
-        }
-    </style>
-    <title>Django blog</title>
-</head>
-<body>
-    <div id='head_post'class='h1 text-center'>Django Blog</div>
-    <div class ='container-fluid'>
-        {% for post in post_list %}
+<!-- modified 2020.8.6 -->
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for post in post_list %}
+    <a href="/post/{{post.id}}" style="text-decoration : none">
         <div class="row">
             <div class='col h3 bg-secondary text-white'>{{post.id}}.  {{ post.title }}</div>
         </div>
-        <div class='row'>
-            <div class='col'>{{ post.text|linebreaksbr}}</div>
-        </div>
-        <div class='row'>
-            <div class="col text-right">{{ post.created_date }}</div>
-        </div>
-        {% empty %}
-        <div>No post with your request</div>
-        {% endfor %}
-        <!-- <table class="table table-striped table-dark table-hover">
-            <thead>
-                <tr class ='text-center'>
-                    <th scope='col'>#</th>
-                    <th scope='col'>TITLE</th>
-                    <th scope='col'>TEXT</th>
-                    <th scope='col'>DATE</th>
-                </tr>
-            </thead>
-            <tbody>
-            {% for post in post_list %}
-            <tr>
-                <th scope = 'row'>{{post.id}}</th>
-                <td>{{ post.title }}</td>
-                <td>{{ post.text|linebreaksbr}}</td>
-                <td>{{ post.created_date }}</td>
-            </tr>
-            {% empty %}
-                <div>No post with your request</div>
-            {% endfor %}
-            </tbody>
-        </table> -->
-        <div>
-            {% comment "Optional note" %}
-                Server commnet
-            {% endcomment %}
-            <!-- html Client Comment -->
-        </div>
-        <footer class ='card-footer text-muted'>
-            <div class ='row mx-md-n5'>
-                <div class="col px-md-5">
-                    <a href = {{my_git_url}} target = "_blank">
-                        <img id='git'src = {{git_icon_path}} width = 70>
-                    </a>
-                </div>
-                <div class="col px-md-5">
-                    <a class ='h5' href="admin/" >Go to Admin Page</a>
-                </div>
-            </div>
-        </footer>
+    </a>
+    <div class='row'>
+        <!-- <div class='col'>{{ post.text|linebreaksbr}}</div> -->
     </div>
-</body>
-</html>
+    <div class='row'>
+        <div class="col text-right">{{ post.created_date }}</div>
+    </div>
+    {% empty %}
+    <div>No post with your request</div>
+    {% endfor %}
+{% endblock %}

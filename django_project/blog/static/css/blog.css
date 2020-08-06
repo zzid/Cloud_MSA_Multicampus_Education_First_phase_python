@@ -12,3 +12,7 @@ body{
     background-color: black;
     color : white;
 }
+
+.post-form textarea, .post-form input{
+    width : 100%;
+}
