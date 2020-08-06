@@ -91,7 +91,7 @@
                     <a href = "./django_project">Start of Django</a> and 
                     <a href = "./django_project/django_ex.md">Study about that</a>
 
-<a href = "./Practice/Day_016">- Day_16</a>        :   <a href = "cine21_data_to_db.ipynb">
+<a href = "./Practice/Day_016">- Day_16</a>        :   <a href = "./django_project">Still on Django Project</a>
 
 </pre>                 
 
