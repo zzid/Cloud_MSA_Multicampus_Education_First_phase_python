@@ -105,7 +105,7 @@
 <a href = "./django_project">- Day_18</a>        :   Finish Django Simple Project 
                     Comment(model) inside of Post(model)
                     Change sqlite to MariaDB (Data in sqlite can't migrate)
-                    
+
 </pre>                 
 
 ## APIs
@@ -135,7 +135,7 @@
 
 [NoSQL](https://tinyurl.com/y2zmhhx4) <br>
 [Mongo DB](https://tinyurl.com/yxnsslgs) <br>
-[Database shard](https://tinyurl.com/yyh64kck) <br>
+8[Database shard](https://tinyurl.com/yyh64kck) <br>
 
 
 

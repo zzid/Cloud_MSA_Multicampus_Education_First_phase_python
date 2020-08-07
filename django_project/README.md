@@ -77,5 +77,7 @@ css
 --------------------------------------
 2020.8.6
 html inheritance
-
+--------------------------------------
+2020.8.7
+python manage.py createsuperuser (in case of change DB)
 </pre>
