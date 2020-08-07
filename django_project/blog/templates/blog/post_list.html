@@ -2,17 +2,21 @@
 {% extends 'blog/base.html' %}
 {% block content %}
     {% for post in post_list %}
-    <a href="/post/{{post.id}}" style="text-decoration : none">
-        <div class="row">
-            <div class='col h3 bg-secondary text-white'>{{ post.title }}</div>
+    
+    <div class="row">
+        <div class='col bg-secondary'>
+            <a class ='h3' href="{% url 'post_detail' pk=post.pk %}" id='da'>{{ post.title }} </a>
+            <a href="{% url 'post_detail' pk=post.pk %}" id='da' >
+                {% if post.approved_comments.count %}
+                    >> {{post.approved_comments.count}} Comments
+                {% else %}
+                    >> 0 Comments
+                {% endif %}
+            </a>
+            <span style='float: right; color: white;'>{{ post.created_date }}</span>
         </div>
-    </a>
-    <div class='row'>
-        <!-- <div class='col'>{{ post.text|linebreaksbr}}</div> -->
     </div>
-    <div class='row'>
-        <div class="col text-right">{{ post.created_date }}</div>
-    </div>
+    &nbsp;
     {% empty %}
     <div>No post with your request</div>
     {% endfor %}

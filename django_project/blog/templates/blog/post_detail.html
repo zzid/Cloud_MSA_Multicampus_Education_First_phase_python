@@ -1,23 +1,50 @@
 <!-- 2020.8.6 -->
 {% extends 'blog/base.html' %}
 {% block content %}
-<div class="text-left"><a href="/">Go back to list</a></div>
+<div class="text-left go_back"><a href="/">Go back to list</a></div>
+    {% if user.is_authenticated %}
+    <div id='post_modi'>
+        <a href="{% url 'post_edit' pk=post.pk %}">Modify</a> / 
+        <a href="{% url 'post_remove' pk=post.pk %}">Delete</a>
+    </div>
+    {% endif %}
     <div class="post">
-        <h1>{{ post.title }}</h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-        {% if post.published_date %}
-        <div class="date text-left">
-        {{ post.published_date }}
+        <div id='post_title'>
+            <h1 style="float:left">{{ post.title }}</h1>
+            {% if post.published_date %}
+            <div style="float:right" class="date">
+                작성일 : {{ post.published_date }}
+            </div>
         </div>
+        <div id='post_text'>{{ post.text|linebreaksbr }}</div>
     {% endif %}
     </div>
     <!-- <span class='glyphicon glyphicon-pencil'></span> -->
     <!-- <span class="glyphicon glyphicon-remove"></span> -->
-    <div>
-        <a href="{% url 'post_edit' pk=post.pk %}">Modify</a> / 
-        <a href="{% url 'post_remove' pk=post.pk %}">Delete</a>
+    <div id='com_div'> <h3>Comments</h3>
+        {% for comment in post.comments.all %}
+            <div class='comment'>
+                <h5>{{ comment.author }}</h5>
+                <p>{{ comment.text|linebreaks }}</p>
+                <div class="date">{{ comment.created_date }}
+                    {% if not comment.approved_comment %}
+                    <a href="{% url 'comment_remove' pk=comment.pk %}">Reject</a> || 
+                    <a href="{% url 'comment_approve' pk=comment.pk %}">Approve</a>
+                    {% endif %}
+                </div>
+            </div>
+        {% empty %}
+            <div id='n_c'>Write the first comment!!</div>
+        {% endfor %}
+        <a href="{% url 'add_comment_to_post' pk=post.pk%}">댓글 쓰기</a>
     </div>
-    <div class="text-right">
-        <a href="/">Go back to list</a>
+    <div style="overflow: hidden;">
+        <div class='text-center'>
+            <a href="{{request.path}}">Go to top</a>
+        </div>
+        <div class='text-right go_back'>
+            <a href="/">Go back to list</a>
+        </div>    
     </div>
+
 {% endblock %}

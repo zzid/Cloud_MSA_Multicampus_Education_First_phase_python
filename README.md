@@ -95,11 +95,17 @@
                     Create Django project and basics
                     MVT pattern
                     CSS, Bootstrap
+
 <a href = "./django_project">- Day_17</a>        :   Django Simple Project
                     HTML inheritance
                     Many functions in blog/view.py
                     Form module
                     Log-in module
+
+<a href = "./django_project">- Day_18</a>        :   Finish Django Simple Project 
+                    Comment(model) inside of Post(model)
+                    Change sqlite to MariaDB (Data in sqlite can't migrate)
+                    
 </pre>                 
 
 ## APIs
@@ -130,3 +136,8 @@
 [NoSQL](https://tinyurl.com/y2zmhhx4) <br>
 [Mongo DB](https://tinyurl.com/yxnsslgs) <br>
 [Database shard](https://tinyurl.com/yyh64kck) <br>
+
+
+
+
+

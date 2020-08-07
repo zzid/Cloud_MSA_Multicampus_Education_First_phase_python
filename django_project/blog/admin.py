@@ -1,7 +1,8 @@
 from django.contrib import admin
 
-from .models import Post    ## register the models from models.py
-                            ## Post is model name that i define
+## register the models from models.py
+## Post is model name that i define
+from .models import Post,Comment
 
 '''
 2020_08_05
@@ -20,3 +21,4 @@ class PostAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Post, PostAdmin)
+admin.site.register(Comment) ## 2020.8.7

@@ -3,18 +3,25 @@
     postForm
 '''
 from django.shortcuts import render
-from .forms import PostModelForm, PostForm
+from .forms import PostModelForm, PostForm, CommentModelForm
 '''
 2020.08.05
     post_list
 '''
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render
-from .models import Post
+from .models import Post,Comment
 from django.shortcuts import redirect
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+
+'''
+2020.8.7
+    Comment
+
+'''
+
 ## this is naive
 # def post_list(request):
 #     name = 'Django'
@@ -94,3 +101,31 @@ def post_remove(request, pk):
     post = get_object_or_404(Post, pk = pk)
     post.delete()
     return redirect('post_list')
+
+## 2020.8.7
+@login_required
+def add_comment_to_post(request,pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == "POST":
+        form = CommentModelForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+        return redirect('post_detail', pk=post.pk)
+    else:
+        form = CommentModelForm()
+    return render(request, 'blog/add_comment_to_post.html',{'form' :form})
+
+@login_required
+def comment_approve(request, pk):
+    comment = get_object_or_404(Comment, pk=pk)
+    comment.approve()
+    return redirect('post_detail', pk = comment.post.pk)
+
+@login_required
+def comment_remove(request, pk):
+    comment = get_object_or_404(Comment, pk=pk)
+    post_pk = comment.post.pk
+    comment.delete()
+    return redirect('post_detail', pk=post_pk)

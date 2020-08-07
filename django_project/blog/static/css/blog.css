@@ -11,8 +11,43 @@ body{
     padding-bottom: 25px;
     background-color: black;
     color : white;
+    text-decoration: none;
 }
 
 .post-form textarea, .post-form input{
     width : 100%;
+}
+#da{
+    text-decoration : none;
+    color :white;
+}
+#head_post a{
+    text-decoration: none;
+    color : white;
+}
+#post_text{
+    border-radius: 5px; padding: 1rem; background-color: rgba(194, 200, 207, 0.3)
+}
+#n_c{
+    color:gray;
+    /* padding : .3rem; */
+}
+.comment{
+    padding : .3rem;
+    font-size : 13px;
+}
+#post_title{
+    overflow: hidden; 
+    padding: 2rem;
+}
+#com_div{
+    padding : 2rem;
+}
+.go_back, #post_modi{
+    padding : .3rem;
+}
+#user_field{
+    overflow: hidden;
+    padding : .5rem;
+    font-size: large;
 }

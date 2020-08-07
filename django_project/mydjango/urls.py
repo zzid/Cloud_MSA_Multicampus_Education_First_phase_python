@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')), # 2020.08.05
     path('accounts/login/', auth_views.LoginView.as_view(template_name="registration/login.html"), name="login"), # 2020.8.6
+    path('accounts/logout/', auth_views.LogoutView.as_view(), {'next_page': None}, name='logout'),
 ]

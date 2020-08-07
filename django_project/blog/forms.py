@@ -1,5 +1,5 @@
 from django import forms
-from .models import Post
+from .models import Post,Comment
 
 def min_length_3_validator(value):
     if len(value) < 3:
@@ -15,3 +15,10 @@ class PostModelForm(forms.ModelForm):
     class Meta:
         model = Post
         fields = ('title', 'text', )
+
+## 2020.8.7
+class CommentModelForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('author','text', )
+
