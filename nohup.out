@@ -1,0 +1,6 @@
+[I 15:42:22.880 NotebookApp] The port 8888 is already in use, trying another port.
+[I 15:42:22.881 NotebookApp] The port 8889 is already in use, trying another port.
+[C 15:42:22.883 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+[I 15:42:26.432 NotebookApp] The port 8888 is already in use, trying another port.
+[I 15:42:26.433 NotebookApp] The port 8889 is already in use, trying another port.
+[C 15:42:26.435 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
