@@ -105,6 +105,7 @@
 <a href = "./django_project">- Day_18</a>        :   Finish Django Simple Project 
                     Comment(model) inside of Post(model)
                     Change sqlite to MariaDB (Data in sqlite can't migrate)
+- Day_19        :   Start first project. Still working on select topic
 
 </pre>                 
 

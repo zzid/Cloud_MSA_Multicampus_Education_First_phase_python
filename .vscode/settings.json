@@ -1,6 +1,5 @@
 {
     "files.autoSave": "afterDelay",
-    // "python.pythonPath" : "~/.pyenv/versions/py385/bin/python",
     // "python.pythonPath": "/usr/bin/python3",
     // "python.autoComplete.extraPaths" : ["C:\\Anaconda3\\Lib",
     //     "C:\\Anaconda3\\Library"],
