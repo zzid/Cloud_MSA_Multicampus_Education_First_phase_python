@@ -1,7 +1,7 @@
 <!-- modified 2020.8.6 -->
 {% extends 'blog/base.html' %}
 {% block content %}
-    {% for post in post_list %}
+    {% for post in posts%}
     
     <div class="row">
         <div class='col bg-secondary'>
@@ -20,4 +20,6 @@
     {% empty %}
     <div>No post with your request</div>
     {% endfor %}
+
+    {% include 'blog/pagination.html' with page=posts%}
 {% endblock %}

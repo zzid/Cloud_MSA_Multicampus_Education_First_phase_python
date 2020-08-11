@@ -5,4 +5,5 @@
     //     "C:\\Anaconda3\\Library"],
     "python.autoComplete.addBrackets": true,
     "python.pythonPath": "/Users/zzid/.pyenv/versions/py385/bin/python",
+    "python.dataScience.jupyterServerURI": "local",
 }

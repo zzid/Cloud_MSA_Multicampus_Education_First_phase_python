@@ -22,6 +22,11 @@ from django.contrib.auth.decorators import login_required
 
 '''
 
+'''
+2020.8.11
+    paginator
+'''
+from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 ## this is naive
 # def post_list(request):
 #     name = 'Django'
@@ -43,13 +48,37 @@ from django.contrib.auth.decorators import login_required
 ## Rending with use html static file
 def post_list(request):
     post_list = Post.objects.all().order_by('-created_date')
-    # post_list = Post.objects.filter(published_date__gte = timezone.now())\
-    #     .order_by('published_date')
-    param = {
-        'post_list' : post_list,
-    }
-    return render(request, 'blog/post_list.html', param)
+    # # post_list = Post.objects.filter(published_date__gte = timezone.now())\
+    # #     .order_by('published_date')
+    # param = {
+    #     'post_list' : post_list,
+    # }
+    # return render(request, 'blog/post_list.html', param)
+    # post_list = Post.objects.filter(published_date_lte=timezone.now()).order_by('published_date')
+    paginator = Paginator(post_list,2)
+    page = request.GET.get('page')
+    
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    return render(request, 'blog/post_list.html', {'posts' :posts})
 
+'''
+    post_list = Post.objects.filter(published_date_lte=timezone.now()).order_by('published_date')
+    paginator = Paginator(post_list,2)
+    page = request.Get.get('page')
+    
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    
+'''
 
 
 ## 2020.8.6 
