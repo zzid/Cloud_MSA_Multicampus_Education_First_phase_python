@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import os
+import os,json
 import pymysql
 pymysql.version_info = (1, 3, 13, "final", 0)
 pymysql.install_as_MySQLdb()
@@ -24,7 +24,10 @@ LOGIN_REDIRECT_URL = '/'
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'q3&4#n_ks+otgb2c#ey3b_%q@8n1!a^8j*f2@=%!$+0$h%qam+'
+key =''
+with open(str(BASE_DIR) + '/key.json', 'r') as key_data:
+    key = json.load(key_data)
+SECRET_KEY = key['django_key']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
