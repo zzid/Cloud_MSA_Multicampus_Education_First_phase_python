@@ -1,2 +1,2 @@
 .env
-./django_project/key.json
+/django_project/key.json
