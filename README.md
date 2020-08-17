@@ -3,7 +3,8 @@
 **융복합 프로젝트형 클라우드(MSA) 서비스 개발** <br>
 2020/07/13 ~ 2020/12/24<br>
 
-* [First project] :: 2020/07/14~<br>
+* [Class for First project] :: 2020/07/14 ~ 2020/08/10<br>
+* [First project] :: 2020/08/11 ~ 2020/08/31<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
 
 ### Pre-Project
@@ -24,7 +25,6 @@
 <del>(6,7)(Using APIs :: Requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy)</del>
 <del>8. 팟빵(download mp4)</del>
 <del>9. Cine21 > movie, actor search (with MongoDB)</del>
-10. Machine learning(Just basics)
 </pre>
 
 ## Today I Learn [Study for first project (Python)]
@@ -105,8 +105,8 @@
 <a href = "./django_project">- Day_18</a>        :   Finish Django Simple Project 
                     Comment(model) inside of Post(model)
                     Change sqlite to MariaDB (Data in sqlite can't migrate)
-- Day_19        :   Start first project. Still working on select topic
 
+<a href = "./ML">- Extra Class</a>      :   <a href= "./ML/iris_data.ipynb">Machine learning(Just basics) (iris data from sklearn)</a>
 </pre>                 
 
 ## APIs
@@ -136,7 +136,7 @@
 
 [NoSQL](https://tinyurl.com/y2zmhhx4) <br>
 [Mongo DB](https://tinyurl.com/yxnsslgs) <br>
-8[Database shard](https://tinyurl.com/yyh64kck) <br>
+[Database shard](https://tinyurl.com/yyh64kck) <br>
 
 
 
