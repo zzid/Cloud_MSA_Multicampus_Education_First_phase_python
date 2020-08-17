@@ -4,8 +4,9 @@
 2020/07/13 ~ 2020/12/24<br>
 
 * [Class for First project] :: 2020/07/14 ~ 2020/08/10<br>
-* [First project] :: 2020/08/11 ~ 2020/08/31<br>
 <a href = 'https://blog.naver.com/vega2k'>Teacher's blog</a>
+
+* [First project] :: 2020/08/11 ~ 2020/08/31<br>
 
 ### Pre-Project
 <pre>
